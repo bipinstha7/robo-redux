@@ -2,6 +2,7 @@
   "name": "robo-redux",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://bipinstha7.github.io/robo-redux-pwa",
   "dependencies": {
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
@@ -13,6 +14,8 @@
     "tachyons": "^4.10.0"
   },
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
