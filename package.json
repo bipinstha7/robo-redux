@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://bipinstha7.github.io/robo-redux-pwa",
   "dependencies": {
+    "gh-pages": "^1.2.0",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
     "react-redux": "^5.0.7",
@@ -14,7 +15,7 @@
     "tachyons": "^4.10.0"
   },
   "scripts": {
-    "predeploy":"npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -33,6 +34,5 @@
   "bugs": {
     "url": "https://github.com/bipinstha7/robo-redux/issues"
   },
-  "homepage": "https://github.com/bipinstha7/robo-redux#readme",
   "description": ""
 }
